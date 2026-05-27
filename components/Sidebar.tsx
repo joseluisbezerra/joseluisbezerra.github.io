@@ -28,6 +28,9 @@ const sidebarBottomItems = [
 
 const Sidebar = () => {
   const pathname = usePathname();
+  const normalizePath = (value: string) =>
+    value.length > 1 && value.endsWith('/') ? value.slice(0, -1) : value;
+  const isActive = (path: string) => normalizePath(pathname) === normalizePath(path);
 
   return (
     <aside className={styles.sidebar}>
@@ -36,13 +39,13 @@ const Sidebar = () => {
           <Link href={path} key={path}>
             <div
               className={`${styles.iconContainer} ${
-                pathname === path && styles.active
+                isActive(path) ? styles.active : ''
               }`}
             >
               <Icon
                 size={16}
                 fill={
-                  pathname === path
+                  isActive(path)
                     ? 'rgb(225, 228, 232)'
                     : 'rgb(106, 115, 125)'
                 }
@@ -58,7 +61,7 @@ const Sidebar = () => {
             <Link href={path}>
               <Icon
                 fill={
-                  pathname === path
+                  isActive(path)
                     ? 'rgb(225, 228, 232)'
                     : 'rgb(106, 115, 125)'
                 }
