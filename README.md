@@ -8,14 +8,6 @@ My personal portfolio website built with Next.js.
 npm install
 ```
 
-## Environment variables
-
-Create your local environment file from the example:
-
-```bash
-cp .env.example .env
-```
-
 ## Run locally
 
 ```bash
