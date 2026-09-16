@@ -74,37 +74,29 @@ const AboutPage = () => {
                 <div className={styles.expMeta}>
                   <span className={styles.expPeriod}>July 2025 - Present</span>
                 </div>
-                <h3 className={styles.expRole}>AI Backend Engineer</h3>
+                <h3 className={styles.expRole}>AI Engineer</h3>
                 <p className={styles.expCompany}>Teddy Open Finance</p>
-                <p className={styles.expDesc}>
-                  I worked in the Artificial Intelligence squad, developing AI-powered 
-                  products integrated into the company's ecosystem.
-                </p>
-                <br />
-                <p className={styles.expDesc}>
-                  Main contributions:
-                </p>
                 <ul className={styles.expList}>
                   <li>
-                    I developed the Simula House product from start to finish, an intelligent 
-                    chatbot integrated with WhatsApp, specializing in financial simulations 
-                    (loans and financing) for the real estate sector, from architectural design 
-                    to implementation, integrations, and deployment in production.
+                    Developed an end-to-end RAG-based application to support compliance processes 
+                    related to FEBRABAN audits, covering everything from dataset preparation and 
+                    API development to authentication and the implementation of security layers.
                   </li>
                   <li>
-                    I developed, from start to finish, a chat application based on 
-                    RAG architecture, trained with data from previous FEBRABAN audits, 
-                    to support the compliance team. I structured the dataset, implemented 
-                    the API, authentication, and security layers, delivering a robust 
-                    and scalable solution.
+                    Restructured the SAM Docs AI microservice, evolving the solution from a 
+                    monolithic agent into an architecture featuring multiple specialized 
+                    agents orchestrated via LangGraph.
                   </li>
                   <li>
-                    I restructured the SAM Docs AI microservice by applying best 
-                    architectural practices and evolved the solution from a monolithic 
-                    agent to a pipeline with multiple specialized agents orchestrated 
-                    via LangGraph. I implemented parallel file processing, reducing 
-                    latency by approximately 50% and increasing the scalability, 
-                    modularity, and accuracy of extractions.
+                    Implemented parallel file processing in SAM Docs AI, reducing latency 
+                    by approximately 50% while enhancing the solution's 
+                    scalability and modularity.
+                  </li>
+                  <li>
+                    Developed Simula House from end to end—an intelligent WhatsApp-integrated 
+                    chatbot specialized in loan and real estate financing simulations—handling 
+                    the entire lifecycle from architecture and implementation 
+                    to integrations and production deployment.
                   </li>
                 </ul>
               </div>
@@ -113,44 +105,31 @@ const AboutPage = () => {
                 <div className={styles.expMeta}>
                   <span className={styles.expPeriod}>July 2023 - July 2025</span>
                 </div>
-                <h3 className={styles.expRole}>AI Backend Engineer</h3>
+                <h3 className={styles.expRole}>Software Engineer - AI & Backend</h3>
                 <p className={styles.expCompany}>Senai Alagoas</p>
-                <p className={styles.expDesc}>
-                  I worked on the SSCP (Senai System for People Certification) project, 
-                  a software specialized in professional management and certification, 
-                  as well as on Senai Play, an online course platform. In addition, I 
-                  contributed to the Product & Innovation (P&I) sector, 
-                  developing Proofs of Concept (POCs) and MVPs using 
-                  artificial intelligence.
-                </p>
-                <br />
-                <p className={styles.expDesc}>
-                  Main contributions:
-                </p>
                 <ul className={styles.expList}>
                   <li>
-                    I served as a technical reference on the SSCP project, assisting 
-                    in development, proposing scalable solutions, and leading the 
-                    implementation of the most complex functionalities.
+                    Served as Tech Lead for the SSCP project (SENAI Personnel Certification 
+                    System), participating in technical decision-making, proposing architectural 
+                    solutions, and leading the implementation of highly complex features.
                   </li>
                   <li>
-                    I developed a queuing-based solution to optimize the processing of 
-                    embeddings in chatbot-as-a-service, improving the scalability and 
-                    efficiency of RAG usage.
+                    Restructured and optimized the SSCP multi-tenant architecture, 
+                    resolving critical issues and improving both application 
+                    scalability and development efficiency.
                   </li>
                   <li>
-                    I designed and implemented a microservice for generating questions 
-                    from transcripts for Senai Play, leveraging generative AI with Gemini, 
-                    integrating educational innovation with scalable solutions.
+                    Developed a solution based on queues and asynchronous processing 
+                    to optimize embedding generation and processing within 
+                    an RAG-based chatbot platform.
                   </li>
                   <li>
-                    I significantly improved the performance of computer vision algorithms 
-                    by optimizing real-time image processing via WebSockets.
+                    Developed Proofs of Concept in the Product & Innovation 
+                    sector involving Artificial Intelligence, NLP, and Computer Vision.
                   </li>
                   <li>
-                    I restructured and optimized the multi-tenant architecture of the SSCP 
-                    project, resolving critical issues and improving the scalability and 
-                    efficiency of the team's deliverables.
+                    Worked on optimizing computer vision algorithms for 
+                    real-time image processing using WebSockets.
                   </li>
                 </ul>
               </div>
@@ -159,44 +138,25 @@ const AboutPage = () => {
                 <div className={styles.expMeta}>
                   <span className={styles.expPeriod}>June 2021 - July 2023</span>
                 </div>
-                <h3 className={styles.expRole}>Backend Engineer</h3>
+                <h3 className={styles.expRole}>Back-end Engineer</h3>
                 <p className={styles.expCompany}>WLC Solutions</p>
-                <p className={styles.expDesc}>
-                  I actively participated in the following projects:
-                </p>
                 <ul className={styles.expList}>
                   <li>
-                    WSaúde, management software for the healthcare sector.
+                    Designed and implemented a multi-tenant architecture used 
+                    in the WSaúde and O&G ADV systems, covering authentication, 
+                    middleware, access control, security, and data isolation.
                   </li>
                   <li>
-                    Fiscal Cripto, platform for declaring cryptocurrency assets.
+                    Developed a ticket-based authentication mechanism and a 
+                    multi-tenant tunnel for WebSocket communication within 
+                    WSaúde, ensuring secure communication between 
+                    clients and services.
                   </li>
                   <li>
-                    O&G ADV, legal system for law firms.
-                  </li>
-                </ul>
-                <br />
-                <p className={styles.expDesc}>
-                  Main contributions:
-                </p>
-                <ul className={styles.expList}>
-                  <li>
-                    I designed and implemented a robust multi-tenant architecture 
-                    framework for the WSaúde and O&G ADV projects, 
-                    including authentication, security, middleware, and access 
-                    control, ensuring scalability and proper data isolation.
-                  </li>
-                  <li>
-                    I developed a ticket-based authentication system and a 
-                    multi-tenant tunnel for WebSocket at WSaúde, ensuring secure 
-                    communication and enabling essential functionalities for closing 
-                    a strategic contract.
-                  </li>
-                  <li>
-                    I developed a microservice for WSaúde responsible for validating 
-                    and generating TISS forms, the ANS standard for exchanging health 
-                    information. The speed and quality of delivery were key to securing a 
-                    highly profitable contract.
+                    Developed a microservice responsible for validating and 
+                    generating TISS forms—a standard established by the ANS 
+                    for health information exchange—thereby enabling the 
+                    technical requirements needed for a strategic contract.
                   </li>
                 </ul>
               </div>
@@ -205,15 +165,16 @@ const AboutPage = () => {
                 <div className={styles.expMeta}>
                   <span className={styles.expPeriod}>February 2021 - June 2021</span>
                 </div>
-                <h3 className={styles.expRole}>Frontend Developer Intern</h3>
+                <h3 className={styles.expRole}>Front-end Developer Intern</h3>
                 <p className={styles.expCompany}>Communicatti Group</p>
                 <p className={styles.expDesc}>
-                  I developed interfaces for 20 projects, always prioritizing pixel-perfect 
-                  quality and ensuring fast deliveries. I was widely praised for my ability 
-                  to deliver within established deadlines while maintaining excellence in 
-                  execution. My speed in delivery and high quality standards were constantly 
-                  highlighted, resulting in continuous recognition within the team.
                 </p>
+                <ul className={styles.expList}>
+                  <li>
+                    I developed interfaces for approximately 20 projects, 
+                    focusing on visual fidelity, responsiveness, and meeting deadlines.
+                  </li>
+                </ul>
               </div>
 
               <div className={styles.experienceCard}>
@@ -222,29 +183,19 @@ const AboutPage = () => {
                 </div>
                 <h3 className={styles.expRole}>Full Stack Developer Intern</h3>
                 <p className={styles.expCompany}>City Hall of Maceió</p>
-                <p className={styles.expDesc}>
-                  I worked on the development and maintenance of essential internal 
-                  systems for the management of the City Hall of Maceió, including:
-                </p>
                 <ul className={styles.expList}>
                   <li>
-                    Bidding management software, ensuring greater control and 
-                    security in internal processes.
+                    Worked on the development and maintenance of internal 
+                    systems used to manage Maceió City Hall operations, 
+                    including systems for tender management and access control.
                   </li>
                   <li>
-                    Access control system, optimizing the flow and security 
-                    of the agency.
+                    Investigated and remediated a critical security vulnerability 
+                    in the tender management system related to reCAPTCHA 
+                    integration, strengthening protection against 
+                    brute-force attacks and unauthorized access.
                   </li>
                 </ul>
-                <p className={styles.expDesc}>
-                  One of the main challenges was investigating and correcting a 
-                  critical vulnerability exploited by an attack on the bidding 
-                  system, caused by a flaw in the reCAPTCHA integration. This 
-                  correction was essential to prevent brute-force attacks, reinforcing 
-                  the system's protection against unauthorized access. In addition, 
-                  I implemented structural improvements to the code, enhancing the 
-                  robustness and efficiency of the systems.
-                </p>
               </div>
             </div>
           </section>
