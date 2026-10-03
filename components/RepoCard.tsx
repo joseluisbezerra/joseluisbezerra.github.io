@@ -1,5 +1,4 @@
 import {
-  VscEye,
   VscRepoForked,
   VscStarEmpty,
   VscLinkExternal,

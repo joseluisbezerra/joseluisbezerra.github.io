@@ -1,6 +1,6 @@
 'use client';
 
-import { VscGithub, VscMail, VscLinkExternal } from 'react-icons/vsc';
+import { VscGithub, VscMail } from 'react-icons/vsc';
 import Link from 'next/link';
 
 import styles from '@/styles/AboutPage.module.css';
@@ -78,25 +78,39 @@ const AboutPage = () => {
                 <p className={styles.expCompany}>Teddy Open Finance</p>
                 <ul className={styles.expList}>
                   <li>
-                    Developed an end-to-end RAG-based application to support compliance processes 
-                    related to FEBRABAN audits, covering everything from dataset preparation and 
-                    API development to authentication and the implementation of security layers.
+                    Developed an end-to-end RAG-based application for FEBRABAN compliance and audits,
+                    covering data preparation, API development, authentication, and the implementation
+                    of security layers.
                   </li>
                   <li>
-                    Restructured the SAM Docs AI microservice, evolving the solution from a 
-                    monolithic agent into an architecture featuring multiple specialized 
-                    agents orchestrated via LangGraph.
+                    Restructured SAM Docs AI from a monolithic architecture to a multi-agent system
+                    using LangGraph; developed over 25 agents specialized in document extraction
+                    (single-agent, multi-agent, and hybrid models combining LLMs with deterministic
+                    Python) and implemented asynchronous parallel processing using Lambda and Step
+                    Functions, resulting in reduced latency and optimized LLM costs.
                   </li>
                   <li>
-                    Implemented parallel file processing in SAM Docs AI, reducing latency 
-                    by approximately 50% while enhancing the solution's 
-                    scalability and modularity.
+                    Developed a multi-agent system for validating banking proposals, distributing 217
+                    business rules across semantic domains; implemented parallel execution and
+                    contextual control to optimize token consumption, reducing validation time by
+                    approximately 75%.
                   </li>
                   <li>
-                    Developed Simula House from end to end—an intelligent WhatsApp-integrated 
-                    chatbot specialized in loan and real estate financing simulations—handling 
-                    the entire lifecycle from architecture and implementation 
-                    to integrations and production deployment.
+                    Worked on the evolution of a multi-tenant RAG knowledge base, involving document
+                    extraction, semantic chunking, hierarchical representations (full text, summary,
+                    and micro-summary), embeddings, and Q&amp;A indexing using PGVector.
+                  </li>
+                  <li>
+                    Developed Simula House end-to-end—an intelligent WhatsApp-integrated chatbot
+                    specialized in loan and real estate financing simulations—covering architecture,
+                    implementation, integrations, and production deployment.
+                  </li>
+                  <li>
+                    Developed the conversational architecture for the NaHora and Consignado systems.
+                    For NaHora, implemented state management, query rewriting, retrieval, and tool
+                    execution; for Consignado, developed asynchronous processing with SQS, WhatsApp
+                    message debouncing, context preservation during Zendesk handoffs, and a strategy
+                    that doubled the retention rate in the first month.
                   </li>
                 </ul>
               </div>
@@ -109,27 +123,27 @@ const AboutPage = () => {
                 <p className={styles.expCompany}>Senai Alagoas</p>
                 <ul className={styles.expList}>
                   <li>
-                    Served as Tech Lead for the SSCP project (SENAI Personnel Certification 
-                    System), participating in technical decision-making, proposing architectural 
+                    Served as the technical lead for the SSCP project (SENAI Personnel Certification
+                    System), participating in technical decision-making, proposing architectural
                     solutions, and leading the implementation of highly complex features.
                   </li>
                   <li>
-                    Restructured and optimized the SSCP multi-tenant architecture, 
-                    resolving critical issues and improving both application 
-                    scalability and development efficiency.
+                    Restructured and optimized the SSCP multi-tenant architecture, resolving critical
+                    issues and enhancing both application scalability and development efficiency.
                   </li>
                   <li>
-                    Developed a solution based on queues and asynchronous processing 
-                    to optimize embedding generation and processing within 
-                    an RAG-based chatbot platform.
+                    Developed a solution based on queues and asynchronous processing to optimize
+                    embedding generation and processing within an RAG-based chatbot platform.
                   </li>
                   <li>
-                    Developed Proofs of Concept in the Product & Innovation 
-                    sector involving Artificial Intelligence, NLP, and Computer Vision.
+                    Developed real-time computer vision systems using YOLO and RTSP camera streams,
+                    including people counting within defined zones, PPE detection, and optimization
+                    of processing and result transmission via WebSockets.
                   </li>
                   <li>
-                    Worked on optimizing computer vision algorithms for 
-                    real-time image processing using WebSockets.
+                    Fine-tuned a YOLO model for PPE detection using custom datasets collected from
+                    RTSP cameras, adapting the model to the specific visual conditions and equipment
+                    found in SENAI environments.
                   </li>
                 </ul>
               </div>

@@ -2,7 +2,7 @@
 
 import { useState, useEffect, useCallback, useRef } from 'react';
 import { useRouter } from 'next/navigation';
-import { VscSymbolColor, VscTerminal, VscFiles, VscGoToFile, VscGear, VscColorMode, VscHome, VscAccount, VscCode, VscBook, VscMail, VscGithubAlt } from 'react-icons/vsc';
+import { VscSymbolColor, VscTerminal, VscGoToFile, VscGear, VscColorMode, VscHome, VscAccount, VscCode, VscMail, VscGithubAlt } from 'react-icons/vsc';
 import { MdNavigateNext } from 'react-icons/md';
 
 import { THEMES } from '@/lib/themes';
@@ -257,7 +257,7 @@ const CommandPalette = ({ isOpen, onClose, onToggleTerminal, isTerminalOpen }: C
             (() => {
               let lastCategory = '';
               let itemIndex = 0;
-              return filteredCommands.map((cmd, index) => {
+              return filteredCommands.map((cmd) => {
                 const showCategory = cmd.category !== lastCategory;
                 lastCategory = cmd.category;
                 const currentIndex = itemIndex++;
