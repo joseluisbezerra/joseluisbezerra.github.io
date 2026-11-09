@@ -72,7 +72,15 @@ const AboutPage = () => {
             <div className={styles.sectionBody}>
               <div className={styles.experienceCard}>
                 <div className={styles.expMeta}>
-                  <span className={styles.expPeriod}>July 2025 - Present</span>
+                  <span className={styles.expPeriod}>November 2026 - Present</span>
+                </div>
+                <h3 className={styles.expRole}>Full Stack Engineer</h3>
+                <p className={styles.expCompany}>Letrus</p>
+              </div>
+
+              <div className={styles.experienceCard}>
+                <div className={styles.expMeta}>
+                  <span className={styles.expPeriod}>July 2025 - October 2026</span>
                 </div>
                 <h3 className={styles.expRole}>AI Engineer</h3>
                 <p className={styles.expCompany}>Teddy Open Finance</p>
@@ -119,7 +127,7 @@ const AboutPage = () => {
                 <div className={styles.expMeta}>
                   <span className={styles.expPeriod}>July 2023 - July 2025</span>
                 </div>
-                <h3 className={styles.expRole}>Software Engineer - AI & Backend</h3>
+                <h3 className={styles.expRole}>Software Engineer | AI & Back-end</h3>
                 <p className={styles.expCompany}>Senai Alagoas</p>
                 <ul className={styles.expList}>
                   <li>
@@ -179,7 +187,7 @@ const AboutPage = () => {
                 <div className={styles.expMeta}>
                   <span className={styles.expPeriod}>February 2021 - June 2021</span>
                 </div>
-                <h3 className={styles.expRole}>Front-end Developer Intern</h3>
+                <h3 className={styles.expRole}>Front-end Engineer Intern</h3>
                 <p className={styles.expCompany}>Communicatti Group</p>
                 <p className={styles.expDesc}>
                 </p>
@@ -195,7 +203,7 @@ const AboutPage = () => {
                 <div className={styles.expMeta}>
                   <span className={styles.expPeriod}>September 2020 - February 2021</span>
                 </div>
-                <h3 className={styles.expRole}>Full Stack Developer Intern</h3>
+                <h3 className={styles.expRole}>Full Stack Engineer Intern</h3>
                 <p className={styles.expCompany}>City Hall of Maceió</p>
                 <ul className={styles.expList}>
                   <li>
